@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function page() {
-  return <div>gallery</div>
+  return <div>gallerys</div>
 }
