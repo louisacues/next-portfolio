@@ -16,11 +16,11 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/image_1.jpg'
+import image2 from '@/images/photos/image_2.jpg'
+import image3 from '@/images/photos/idea.jpeg'
+import image4 from '@/images/photos/image_4.jpeg'
+import image5 from '@/images/photos/image_5.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -288,8 +288,8 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href={cvLink}
-        // href="https://drive.google.com/file/d/1SkzPGVOmv3PsIFc5X8gYKwztjzrcQ15e/view?usp=sharing"
+        // href={cvLink}
+        href="https://drive.google.com/file/d/1SkzPGVOmv3PsIFc5X8gYKwztjzrcQ15e/view?usp=sharing"
         variant="secondary"
         className="group mt-6 w-full"
       >
@@ -335,12 +335,12 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software Developer
+            Front-end Developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm Louisa, a software developer with one year of hands-on
-            experience. Over the past year, I've honed my skills and tackled
-            diverse projects. I'm passionate about coding and always eager to
+            I am Louisa, a software developer with one year of hands-on
+            experience. Over the past year, I have honed my skills and tackled
+            diverse projects. I am passionate about coding and always eager to
             tackle new challenges in this dynamic field.
           </p>
 

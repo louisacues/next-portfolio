@@ -11,42 +11,50 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'TodoList',
-    description: 'Simple Todolist',
+    name: 'Ecommerce',
+    description: 'Ecommerce that uses Next.js',
     link: {
-      href: '/projects/projectslists/todolist/',
-      label: 'todolist',
+      href: 'https://ecommerce-ruiza.netlify.app',
+      label: 'ecommerce',
     },
     logo: logoPlanetaria,
   },
   {
-    name: 'Calculator',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '/projects/projectslists/calculator/', label: 'calculator' },
+    name: 'Movie Library',
+    description: 'Movie Library that uses nextjs.',
+    link: {
+      href: 'https://movie-library-ruiza.netlify.app',
+      label: 'movielibrary',
+    },
     logo: logoAnimaginary,
   },
   {
-    name: 'Image Gallery',
+    name: 'Clothing Shop',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '/projects/projectslists/gallery/', label: 'gallery' },
+    link: {
+      href: 'https://ecommerce-clothing-shop-ruiza.netlify.app/',
+      label: 'clothingshop',
+    },
     logo: logoHelioStream,
   },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  // {
+  //   name: 'Expense Tracker',
+  //   description:
+  //     'The operating system that powers our Planetaria space shuttles.',
+  //   link: {
+  //     href: '/projects/projectslists/expensetracker/',
+  //     label: 'expense tracker',
+  //   },
+  //   logo: logoCosmos,
+  // },
+  // {
+  //   name: 'OpenShuttle',
+  //   description:
+  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoOpenShuttle,
+  // },
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {

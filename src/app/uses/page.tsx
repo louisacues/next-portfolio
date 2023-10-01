@@ -46,7 +46,7 @@ export default function Uses() {
       intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
     >
       <div className="space-y-20">
-        <ToolsSection title="Workstation">
+        {/* <ToolsSection title="Workstation">
           <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
             I was using an Intel-based 16” MacBook Pro prior to this and the
             difference is night and day. I’ve never heard the fans turn on a
@@ -72,14 +72,19 @@ export default function Uses() {
             If I’m going to slouch in the worst ergonomic position imaginable
             all day, I might as well do it in an expensive chair.
           </Tool>
-        </ToolsSection>
+        </ToolsSection> */}
         <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+          <Tool title="Visual Studio code">
+            I utilize VS Code for its efficient coding environment, enjoying its
+            extensive library of extensions, integrated Git control, syntax
+            highlighting, IntelliSense auto-completion, and code refactoring.
           </Tool>
-          <Tool title="iTerm2">
+          <Tool title="Github">
+            I actively utilize GitHub for version control, collaboration, and
+            managing code repositories to streamline and enhance my development
+            workflow.
+          </Tool>
+          {/* <Tool title="iTerm2">
             I’m honestly not even sure what features I get with this that aren’t
             just part of the macOS Terminal but it’s what I use.
           </Tool>
@@ -87,16 +92,27 @@ export default function Uses() {
             Great software for working with databases. Has saved me from
             building about a thousand admin interfaces for my various projects
             over the years.
-          </Tool>
+          </Tool> */}
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            I spent three days to exploring Figma and was genuinely impressed
+            with its capabilities. However, I returned to programming given the
+            vast amount I still need to learn.
+          </Tool>
+          <Tool title="Canva">
+            I gained experience in Canva as I was responsible for creating and
+            editing thumbnails, social media posts, and other digital contents.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Productivity">
+        <ToolsSection title="Video Editing">
+          <Tool title="Camtasia">
+            I have experience in utilizing Camtasia for professional-quality
+            video editing and screen recording, enhancing my multimedia projects
+            with its versatile features and intuitive interface.
+          </Tool>
+        </ToolsSection>
+        {/* <ToolsSection title="Productivity">
           <Tool title="Alfred">
             It’s not the newest kid on the block but it’s still the fastest. The
             Sublime Text of the application launcher world.
@@ -116,7 +132,7 @@ export default function Uses() {
             Simple tool for blocking distracting websites when I need to just do
             the work and get some momentum going.
           </Tool>
-        </ToolsSection>
+        </ToolsSection> */}
       </div>
     </SimpleLayout>
   )
