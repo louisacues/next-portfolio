@@ -70,7 +70,7 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I'm Louisa Cuenza, driven to make an impact in the digital realm.
+            I am Louisa Cuenza, driven to make an impact in the digital realm.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
@@ -87,7 +87,7 @@ export default function About() {
               the broader technological community.
             </p>
             <p>
-              My initial steps into the IT field didn't start on such a
+              My initial steps into the IT field did not start on such a
               passionate note. Initially, I embarked on my academic voyage with
               a limited understanding of programming and a cloud of uncertainty
               regarding my chosen path. The complexities of the subject were, at
@@ -97,10 +97,10 @@ export default function About() {
             <p>
               My college journey was marked by a recurring pattern: I was
               frequently appointed as the leader of various groups.
-              Interestingly, this didn't just pertain to programming subjects,
+              Interestingly, this did not just pertain to programming subjects,
               an area where I initially felt I lacked proficiency. Despite my
               self-doubt, my classmates consistently placed their trust in me, a
-              sentiment I couldn't fully comprehend at the time. Upon
+              sentiment I could not fully comprehend at the time. Upon
               reflection, I recognized that their belief was not solely rooted
               in technical skill but in my inherent qualities. They saw my
               relentless drive to learn, my ability to deliver quality results,
