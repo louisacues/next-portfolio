@@ -3,7 +3,6 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
-import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
@@ -12,17 +11,11 @@ import {
   FacebookIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
 import image1 from '@/images/photos/image_1.jpg'
 import image2 from '@/images/photos/image_2.jpg'
 import image3 from '@/images/photos/idea.jpeg'
 import image4 from '@/images/photos/image_4.jpeg'
 import image5 from '@/images/photos/image_5.JPG'
-// import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
-import { formatDate } from '@/lib/formatDate'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
