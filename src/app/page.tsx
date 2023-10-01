@@ -21,7 +21,7 @@ import image2 from '@/images/photos/image_2.jpg'
 import image3 from '@/images/photos/idea.jpeg'
 import image4 from '@/images/photos/image_4.jpeg'
 // import image5 from '@/images/photos/image_5.jpg'
-import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
+// import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -102,20 +102,20 @@ function ArrowDownIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
-function Article({ article }: { article: ArticleWithSlug }) {
-  return (
-    <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
-      <Card.Eyebrow as="time" dateTime={article.date} decorate>
-        {formatDate(article.date)}
-      </Card.Eyebrow>
-      <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
-    </Card>
-  )
-}
+// function Article({ article }: { article: ArticleWithSlug }) {
+//   return (
+//     <Card as="article">
+//       <Card.Title href={`/articles/${article.slug}`}>
+//         {article.title}
+//       </Card.Title>
+//       <Card.Eyebrow as="time" dateTime={article.date} decorate>
+//         {formatDate(article.date)}
+//       </Card.Eyebrow>
+//       <Card.Description>{article.description}</Card.Description>
+//       <Card.Cta>Read article</Card.Cta>
+//     </Card>
+//   )
+// }
 
 function SocialLink({
   icon: Icon,
@@ -328,7 +328,7 @@ function Photos() {
 }
 
 export default async function Home() {
-  let articles = (await getAllArticles()).slice(0, 4)
+  // let articles = (await getAllArticles()).slice(0, 4)
 
   return (
     <>
