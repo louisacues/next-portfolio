@@ -338,7 +338,7 @@ export default async function Home() {
             Front-end Developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am Louisa, a software developer with one year of hands-on
+            I am Louisa, a frontend developer with one year of hands-on
             experience. Over the past year, I have honed my skills and tackled
             diverse projects. I am passionate about coding and always eager to
             tackle new challenges in this dynamic field.
