@@ -20,7 +20,7 @@ import image1 from '@/images/photos/image_1.jpg'
 import image2 from '@/images/photos/image_2.jpg'
 import image3 from '@/images/photos/idea.jpeg'
 import image4 from '@/images/photos/image_4.jpeg'
-import image5 from '@/images/photos/image5.JPG'
+import image5 from '@/images/photos/image_5.JPG'
 // import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
