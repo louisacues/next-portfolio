@@ -30,8 +30,7 @@ const projects = [
   },
   {
     name: 'Clothing Shop',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
+    description: 'Clothing Shop.',
     link: {
       href: 'https://ecommerce-clothing-shop-ruiza.netlify.app/',
       label: 'clothingshop',
