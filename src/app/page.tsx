@@ -344,7 +344,7 @@ export default async function Home() {
               icon={TwitterIcon}
             /> */}
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/louisacues"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
@@ -359,7 +359,7 @@ export default async function Home() {
               icon={FacebookIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/ruizacues"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />

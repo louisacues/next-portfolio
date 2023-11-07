@@ -12,7 +12,7 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 const projects = [
   {
     name: 'Ecommerce',
-    description: 'Ecommerce that uses Next.js',
+    description: 'E-commerce website built with Next.js, combining the speed and efficiency of server rendering with a modern user interface',
     link: {
       href: 'https://ecommerce-ruiza.netlify.app',
       label: 'ecommerce',
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     name: 'Movie Library',
-    description: 'Movie Library that uses nextjs.',
+    description: 'Prioritized mobile responsiveness and added interactive elements for enhanced user engagement.',
     link: {
       href: 'https://movie-library-ruiza.netlify.app',
       label: 'movielibrary',
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     name: 'Clothing Shop',
-    description: 'Clothing Shop.',
+    description: 'Developed an eCommerce clothing shop using React, TypeScript, and Tailwind CSS, incorporating Firebase integration for seamless performance.',
     link: {
       href: 'https://ecommerce-clothing-shop-ruiza.netlify.app/',
       label: 'clothingshop',
