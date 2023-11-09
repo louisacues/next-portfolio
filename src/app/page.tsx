@@ -282,7 +282,7 @@ function Resume() {
       </ol>
       <Button
         // href={cvLink}
-        href="https://drive.google.com/file/d/1SkzPGVOmv3PsIFc5X8gYKwztjzrcQ15e/view?usp=sharing"
+        href="https://drive.google.com/file/d/109gOY-jdWiyUOtbTR-CjqN8Xi2_L7-1B/view?usp=sharing"
         variant="secondary"
         className="group mt-6 w-full"
       >
