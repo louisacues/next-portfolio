@@ -104,6 +104,9 @@ export default function Uses() {
             I gained experience in Canva as I was responsible for creating and
             editing thumbnails, social media posts, and other digital contents.
           </Tool>
+          <Tool title="Photoshop">
+          I developed proficiency in Photoshop as I was tasked with creating and enhancing various digital assets, including image editing and graphic design.
+          </Tool>
         </ToolsSection>
         <ToolsSection title="Video Editing">
           <Tool title="Camtasia">
