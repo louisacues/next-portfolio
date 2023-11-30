@@ -236,6 +236,13 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Lead Magic Pro',
+      title: 'Virtual Assistant',
+      // logo: logoPlanetaria,
+      start: '2022',
+      end: '2022',
+    },
+    {
+      company: 'Omni Digital Solutions',
       title: 'Software Developer',
       // logo: logoPlanetaria,
       start: '2022',
@@ -243,7 +250,7 @@ function Resume() {
     },
     {
       company: 'Oli',
-      title: 'Software Developer',
+      title: 'Front End Developer',
       // logo: logoAirbnb,
       start: '2023',
       end: {
@@ -282,7 +289,7 @@ function Resume() {
       </ol>
       <Button
         // href={cvLink}
-        href="https://drive.google.com/file/d/10V2zOp-1HAdu_mCKkhbrBbl5N8GFnmT5/view?usp=sharing"
+        href="https://drive.google.com/file/d/1fI6ycG1dBSvPRgpUctGVbHPImzQv69ET/view?usp=sharing"
         variant="secondary"
         className="group mt-6 w-full"
       >
