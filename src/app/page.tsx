@@ -236,28 +236,28 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Lead Magic Pro',
-      title: 'Virtual Assistant',
+      title: 'Front End Developer',
       // logo: logoPlanetaria,
       start: '2022',
       end: '2022',
     },
     {
       company: 'Omni Digital Solutions',
-      title: 'Software Developer',
+      title: 'React Developer',
       // logo: logoPlanetaria,
       start: '2022',
       end: '2023',
     },
-    {
-      company: 'Oli',
-      title: 'Front End Developer',
-      // logo: logoAirbnb,
-      start: '2023',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
-    },
+    // {
+    //   company: 'Oli',
+    //   title: 'Front End Developer',
+    //   // logo: logoAirbnb,
+    //   start: '2023',
+    //   end: {
+    //     label: 'Present',
+    //     dateTime: new Date().getFullYear().toString(),
+    //   },
+    // },
     // {
     //   company: 'Facebook',
     //   title: 'iOS Software Engineer',
