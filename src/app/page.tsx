@@ -236,7 +236,7 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Omni Digital Solutions',
-      title: 'React Developer',
+      title: 'Front End Developer',
       // logo: logoPlanetaria,
       start: '2022',
       end: '2023',
