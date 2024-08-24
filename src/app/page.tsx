@@ -235,18 +235,18 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Lead Magic Pro',
-      title: 'Front End Developer',
-      // logo: logoPlanetaria,
-      start: '2022',
-      end: '2022',
-    },
-    {
       company: 'Omni Digital Solutions',
       title: 'React Developer',
       // logo: logoPlanetaria,
       start: '2022',
       end: '2023',
+    },
+    {
+      company: 'OLi',
+      title: 'Front End Developer',
+      // logo: logoPlanetaria,
+      start: '2024',
+      end: '2024',
     },
     // {
     //   company: 'Oli',
@@ -289,7 +289,7 @@ function Resume() {
       </ol>
       <Button
         // href={cvLink}
-        href="https://drive.google.com/file/d/1UZfNppNEDLuUdbgYk3_-XvcjH0Raoz2h/view?usp=sharing"
+        href="https://drive.google.com/file/d/1VFbWeuH7B44htEufJmLkqQ-AmGZgHFdP/view?usp=drive_link"
         variant="secondary"
         className="group mt-6 w-full"
       >
@@ -338,10 +338,7 @@ export default async function Home() {
             Frontend Developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I am Louisa, a frontend developer with one year of hands-on
-            experience. Over the past year, I have honed my skills and tackled
-            diverse projects. I am passionate about coding and always eager to
-            tackle new challenges in this dynamic field.
+          I am Louisa, a frontend developer with one year of hands-on experience. During this time, I have honed my skills by working on diverse projects, gaining proficiency in various frontend technologies. I am passionate about coding and always eager to take on new challenges in this dynamic field.
           </p>
 
           <div className="mt-6 flex gap-6">
