@@ -335,7 +335,7 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Front end Developer
+            Frontend Developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           I am Louisa, a frontend developer with one year of hands-on experience. During this time, I have honed my skills by working on diverse projects, gaining proficiency in various frontend technologies. I am passionate about coding and always eager to take on new challenges in this dynamic field.
