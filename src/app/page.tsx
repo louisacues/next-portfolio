@@ -191,18 +191,18 @@ interface Role {
   company: string
   title: string
   // logo: ImageProps['src']
-  start: string | { label: string; dateTime: string }
-  end: string | { label: string; dateTime: string }
+  // start: string | { label: string; dateTime: string }
+  // end: string | { label: string; dateTime: string }
 }
 
 function Role({ role }: { role: Role }) {
-  let startLabel =
-    typeof role.start === 'string' ? role.start : role.start.label
-  let startDate =
-    typeof role.start === 'string' ? role.start : role.start.dateTime
+  // let startLabel =
+  //   typeof role.start === 'string' ? role.start : role.start.label
+  // let startDate =
+  //   typeof role.start === 'string' ? role.start : role.start.dateTime
 
-  let endLabel = typeof role.end === 'string' ? role.end : role.end.label
-  let endDate = typeof role.end === 'string' ? role.end : role.end.dateTime
+  // let endLabel = typeof role.end === 'string' ? role.end : role.end.label
+  // let endDate = typeof role.end === 'string' ? role.end : role.end.dateTime
 
   return (
     <li className="ml-4 flex gap-4">
@@ -218,15 +218,15 @@ function Role({ role }: { role: Role }) {
         <dd className="text-xs text-zinc-500 dark:text-zinc-400">
           {role.title}
         </dd>
-        <dt className="sr-only">Date</dt>
-        <dd
+        {/* <dt className="sr-only">Date</dt> */}
+        {/* <dd
           className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
           aria-label={`${startLabel} until ${endLabel}`}
         >
           <time dateTime={startDate}>{startLabel}</time>{' '}
           <span aria-hidden="true">—</span>{' '}
           <time dateTime={endDate}>{endLabel}</time>
-        </dd>
+        </dd> */}
       </dl>
     </li>
   )
@@ -238,15 +238,25 @@ function Resume() {
       company: 'Omni Digital Solutions',
       title: 'Front End Developer',
       // logo: logoPlanetaria,
-      start: '2022',
-      end: '2023',
+      // start: '2022',
+      // end: '2023',
     },
     {
       company: 'OLi',
       title: 'Front End Developer',
       // logo: logoPlanetaria,
-      start: '2024',
-      end: '2024',
+      // start: '2024',
+      // end: '2025',
+    },
+    {
+      company: 'Stone Keep Holdings',
+      title: 'Front End Developer',
+      // logo: logoPlanetaria,
+      // start: '2025',
+      // end: {
+      //   label: 'Present',
+      //   dateTime: new Date().getFullYear().toString(),
+      // },
     },
     // {
     //   company: 'Oli',
@@ -338,7 +348,7 @@ export default async function Home() {
             Frontend Developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I am Louisa, a frontend developer with one year of hands-on experience. During this time, I have honed my skills by working on diverse projects, gaining proficiency in various frontend technologies. I am passionate about coding and always eager to take on new challenges in this dynamic field.
+          I'm Louisa, a frontend developer with two years of hands-on experience building a Project Management & Audit platform for accounting firms and crafting high-performance company websites, gaining proficiency in various frontend technologies. I am passionate about coding and always eager to take on new challenges in this dynamic field.
           </p>
 
           <div className="mt-6 flex gap-6">
@@ -373,7 +383,7 @@ export default async function Home() {
       <Photos />
       <Container className="mt-24 md:mt-28">
         {/* <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2"> */}
-        <div className="mx-auto max-w-xl">
+        <div className="mx-auto max-w-sm">
           {/* <div className="flex flex-col gap-16">
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
