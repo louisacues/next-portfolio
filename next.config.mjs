@@ -5,9 +5,9 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  images: {
-    unoptimized: true,
-  },
+  // images: {
+  //   unoptimized: true,
+  // },
 }
 
 const withMDX = nextMDX({
