@@ -14,6 +14,9 @@ import logoNextJS from '@/images/logos/nextjs.svg'
 import logoJavascript from '@/images/logos/javascript.svg'
 import logoReact from '@/images/logos/react.svg'
 import logoStorybook from '@/images/logos/storybook.svg'
+import logoFigma from '@/images/logos/figma.svg'
+import logoVue from '@/images/logos/vue.svg'
+import logoHtml from '@/images/logos/html.svg'
 
 const skills = [
   {
@@ -57,12 +60,33 @@ const skills = [
     logo: logoReact,
   },
   {
+    name: 'Vue.js',
+    description:
+      'Vue.js is a progressive JavaScript framework for building user interfaces. It is designed to be incrementally adoptable, and can be used in projects of all sizes.',
+    link: { href: 'https://vuejs.org/' },
+    logo: logoVue,
+  },
+  {
     name: 'Storybook',
     description:
       'Storybook is an open-source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation for various frontend frameworks and libraries.',
     link: { href: 'https://storybook.js.org/' },
     logo: logoStorybook,
   },
+  {
+    name: 'Figma',
+    description:
+      'Figma is a cloud-based design tool that allows developers to create, collaborate, and share designs with ease. It offers a wide range of features for creating and managing designs, including a drag-and-drop interface, a library of components, and a collaborative workspace.',
+    link: { href: 'https://www.figma.com/' },
+    logo: logoFigma,
+  }, 
+  { 
+    name: 'HTML',
+    description:
+      'HTML is the standard markup language for creating web pages. It is used to create the structure of a web page and is the foundation of the web.',
+    link: { href: 'https://www.w3.org/html/' },
+    logo: logoHtml,
+  }
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -77,15 +101,15 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const metadata: Metadata = {
-  title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  title: 'Skills',
+  description: 'A collection of work shaped by curiosity, craftsmanship, and impact.',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="The projects I've shared reflect my passion for programming and continuous learning. While I hope you find them interesting, I’m unable to share specific details about my work with the company due to an NDA. However, you can explore our work by visiting the website linked in my resume."
+      title="The tools behind my work"
+      intro="These are the technologies I use most often to build fast, accessible, and maintainable web applications. Each one plays a role in how I approach problem-solving and product development."
     >
       <ul
         role="list"
