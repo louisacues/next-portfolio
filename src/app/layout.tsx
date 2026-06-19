@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s - Louisa Cuenza',
     default: 'Louisa Cuenza - Software Developer',
   },
-  description: 'Im Louisa, a software developer',
+  description: 'I&apos;m Louisa, a software developer',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

@@ -348,7 +348,7 @@ export default async function Home() {
             Frontend Developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Im Louisa, a frontend developer with two years of hands-on experience building a Project Management & Audit platform for accounting firms and crafting high-performance company websites, gaining proficiency in various frontend technologies. I am passionate about coding and always eager to take on new challenges in this dynamic field.
+          I&apos;m Louisas, a frontend developer with two years of hands-on experience building a Project Management & Audit platform for accounting firms and crafting high-performance company websites, gaining proficiency in various frontend technologies. I am passionate about coding and always eager to take on new challenges in this dynamic field.
           </p>
 
           <div className="mt-6 flex gap-6">
